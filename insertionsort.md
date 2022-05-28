@@ -21,10 +21,6 @@ Insertion Sort dizi elemanlarını bir alt dizi oluşturarak sıralar. `[22,27,1
 | [22,27,16,2,18,==6== ]   | [**2**,**6**,**16**,**18**,**22**,**27**]|
 
 
-
-
-
-
 ## Big-O Gösterimi
 
  n orijinal dizinin eleman sayısı olmak üzere orijinal dizideki her bir adım için alt dizide n-1 adım gerçekleşir.
