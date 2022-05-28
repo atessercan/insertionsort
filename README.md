@@ -25,10 +25,12 @@ Insertion Sort dizi elemanlarını bir alt dizi oluşturarak sıralar. `[22,27,1
 
  n orijinal dizinin eleman sayısı olmak üzere orijinal dizideki her bir adım için alt dizide n-1 adım gerçekleşir.
 
-Dizi zaten sıralı haldeyse karşılaştırmalar için (**best-case**) : $T_{n}=O(n)$ yer değiştirmeler için: $T_{1}=O(1)$
+Dizi zaten sıralı haldeyse karşılaştırmalar için (**best case**) : $T_{n}=O(n)$ yer değiştirmeler için: $T_{1}=O(1)$
 
-Dizi ters sıralı (**worst-case**) veya rastgele sıralı ise (**average-case**):
+Dizi ters sıralı (**worst case**) veya rastgele sıralı ise (**average case**):
 
 $\sum_{i=1}^{n} (n-1) = (n-1)(n-1+1)/2 $
 
 $T_{n}=O(n^2)$
+
+Dizide söz gelimi 18 sayısının sıralanışı **average case**'dir
